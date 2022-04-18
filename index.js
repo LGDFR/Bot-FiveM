@@ -4,6 +4,11 @@ var argv = require('minimist')(process.argv.slice(2));
 const client = new Client({intents:[Intents.FLAGS.GUILDS]})
 const hook = new WebhookClient({url:`${argv['webhook']}`})
 client.on('ready',()=>{
+    /**Changement du nom d'utilisateur */
+    client.user.setUsername(`${argv['username']}`);
+
+    /** Ajout d'un Avatar */
+    client.user.setAvatar(`${argv['avatarurl']}`);
     setInterval(()=>{
          request({url:`http://${argv['ip_port']}/dynamic.json`,timeout:60,json:true},function(error,response,body){
     if(response === undefined){
