@@ -15,6 +15,7 @@ client.on('ready',()=>{
 
 
     },300000)
+    console.log('Bot en ligne.')
 hook.send(`Le bot discord ${client.user.tag} est en ligne`)
 })
 
