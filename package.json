@@ -1,12 +1,10 @@
 {
   "dependencies": {
     "discord.js": "^13.6.0",
-    "minimist": "^1.2.6",
-    "mysql2": "^2.3.3",
     "request": "^2.88.2"
   },
-  "name": "fivem_botdiscord_cubixserv",
-  "version": "1.0.0",
+  "name": "fivem_bot",
+  "version": "1.2.0",
   "description": "Bot exclusif cubixserv",
   "main": "index.js",
   "devDependencies": {},
@@ -18,7 +16,7 @@
     "url": "git+https://github.com/LGDFR/CubixBot-FiveM.git"
   },
   "author": "EwayNock (LGDFR)",
-  "license": "UNLICENSED",
+  "license": "License Creative Commons Attribution",
   "bugs": {
     "url": "https://github.com/LGDFR/CubixBot-FiveM/issues"
   },
