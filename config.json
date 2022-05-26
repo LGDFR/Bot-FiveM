@@ -1,5 +1,7 @@
 {
-  "ip" : "",
-  "port" : "",
-  "token" : ""
+  "ip" : "0.0.0.0",
+  "port" : "30120",
+  "token" : "tokendiscord",
+  "avatar" : "https://cdn.discordapp.com/avatars/303474266496696320/da9f20226ced9639eda66a00b5595337.webp?size=1024",
+  "username" : "mybestserver"
 }
